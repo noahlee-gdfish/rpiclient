@@ -3,8 +3,10 @@ import socket
 import threading
 import time
 
-DEFAULT_HOST = "192.168.219.116"
-DEFAULT_PORT = 9999
+#DEFAULT_HOST = "192.168.219.116"
+#DEFAULT_PORT = 9999
+DEFAULT_HOST = "192.168.219.113"
+DEFAULT_PORT = 9000
 BUF_SIZE = 1024
 
 def recv_data(client_socket):
